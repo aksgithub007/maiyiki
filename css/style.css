@@ -161,6 +161,7 @@ border-right:1px solid #000;
 	font-size: 3.3em;
 	font-weight: 300;
 	letter-spacing: 1px;
+	margin-top:80px
 }
 
 .carousel-caption h2 span,
@@ -250,7 +251,84 @@ border-right:1px solid #000;
 }
 
 /*banner end here*/
-
+/*about section start here*/
+#about {
+	width:100%;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color: teal;
+}
+#about h2{
+		font-size:36px;
+	font-weight:600;
+	color:#000;
+	text-align:center;
+}
+#about p{
+	font-size:21px;
+	font-weight:500;
+	color:#1d1d1d;
+	text-align:center;
+	margin-bottom:10px;
+}
+#about .wrap_container{
+	    width: 100%;
+    height: 252px;
+    border: 1px solid #ccc;
+}
+#about .wrap_container .wrapper{
+	transition:1.5s;
+    transform-style: preserve-3d;
+    position: relative;
+   
+}
+#about .wrap_container .wrapper .front{
+	    z-index: 2;
+    width: 100%;
+    text-align: center;
+    transition: all 1.5s;
+    transform: rotateY(0deg);
+}
+#about .wrap_container .wrapper .front p{
+	margin: 0 0 10px;
+}
+#about .wrap_container .wrapper .front p img{
+      padding-top: 10px;
+}
+#about .wrap_container .wrapper .front span{
+	    font-size: 1em;
+    color: #fff;
+    padding: 5px 10px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    background: #373435;
+}
+#about .wrap_container .wrapper .front, #about .wrap_container .warpper .back{
+	backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#about .wrap_container .warpper .back{
+	  transform: rotateY(-180deg);
+    background: #f8f8f8;
+    padding: 10px;
+}
+#about .wrap_container .wrapper .back p{
+	    text-align: center;
+    font-size: 14px;
+}
+#about .wrap_container:hover > .wrapper .front{
+	transform:rotateY(-180deg);
+}
+#about .wrap_container:hover > .wrapper .back{
+	transform:rotateY(0deg);
+}
+/*about section end here*/
 /*services section start here*/
 #services{
 	  	width:100%;

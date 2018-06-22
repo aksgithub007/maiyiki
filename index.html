@@ -444,6 +444,21 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.js"></script>
 
+
+		    <!-- script for tabular services -->
+		    <script type="text/javascript">
+		$(document).ready(function() {
+		    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+		        e.preventDefault();
+		        $(this).siblings('a.active').removeClass("active");
+		        $(this).addClass("active");
+		        var index = $(this).index();
+		        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+		        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+		    });
+		});
+		</script>
+
 		<script src="js/jquery.big-slide.js"></script>
 		<script>
 	    $(document).ready(function() {
@@ -497,6 +512,7 @@ $(document).ready(function() {
 });
 </script> 
 
+
 <script>
 /*Add class when scroll down*/
 $(window).scroll(function(event){
@@ -508,7 +524,7 @@ $(window).scroll(function(event){
     }
 });
 /*Animation anchor*/
-$('a').click(function(){
+$('.go-top').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
     }, 1000);

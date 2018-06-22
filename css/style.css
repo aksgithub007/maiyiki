@@ -2,6 +2,13 @@
 	margin:0;
 	padding:0;
 }
+/*top1 section start here for mobile*/
+#top1
+{
+  display:none;
+}
+
+/*top1 section end here for mobile*/
 #top
 {
 	width:100%;

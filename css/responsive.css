@@ -1,4 +1,53 @@
 @media screen and (max-width: 400px){
+  #top1{
+  width:100%;
+  background-color:#1d1d1d;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+  }
+  #top1 .cell_top{
+    width:44%;
+  }
+  #top1 .cell_top a{
+    text-decoration:none;
+    color: #fff;
+    font-size:15px;
+    font-weight:300;
+    text-align:left;
+  }
+  #top1 .cell_top a::before{
+    content: '\f095';
+    font-family: FontAwesome;
+    font-size:14px;
+    color:#fff;
+    margin-right:14px;
+  }
+  #top1 .email_top{
+    width:49%;
+  }
+  #top1 .email_top a{
+    text-decoration:none;
+    color: #fff;
+    font-size:15px;
+    font-weight:300;
+    text-align:left;
+    margin-left:35px;
+  }
+  #top1 .email_top a::before{
+    content: '\f0e0';
+    font-family: FontAwesome;
+    font-size:14px;
+    color:#fff;
+    margin-right:14px;
+  }
+ #top1 .cell_top a:hover, #top1 .cell_top a:hover::before{
+   color:#086DF7;
+  }
+  #top1 .email_top a:hover, #top1 .email_top a:hover::before{
+    color:#086DF7;
+   }
+
 		#nav .navbar-right
 	{
 		display:none;
@@ -11,6 +60,9 @@
 		font-weight:600;
 		margin-left:0px;
 	}
+  #nav .navbar-header{
+    padding-top:22px;
+  }
 	.carousel-caption h2, .carousel-caption h3{
 		font-size: 2em;
 	    font-weight: 300;
@@ -70,6 +122,58 @@
 
 
 @media screen and (max-width: 320px){
+   #top1{
+   width:100%;
+   background-color:#1d1d1d;
+   display:block;
+   padding-top:10px;
+   padding-bottom:10px;
+   }
+   #top1 .cell_top{
+     width:40%;
+   }
+   #top1 .cell_top a{
+     text-decoration:none;
+     color: #fff;
+     font-size:14px;
+     font-weight:300;
+     text-align:left;
+   }
+   #top1 .cell_top a::before{
+     content: '\f095';
+     font-family: FontAwesome;
+     font-size:14px;
+     color:#fff;
+     margin-right:10px;
+   }
+   #top1 .email_top{
+     width:40%;
+   }
+   #top1 .email_top a{
+     text-decoration:none;
+     color: #fff;
+     font-size:14px;
+     font-weight:300;
+     text-align:left;
+    
+   }
+   #top1 .email_top a::before{
+     content: '\f0e0';
+     font-family: FontAwesome;
+     font-size:14px;
+     color:#fff;
+     margin-right:10px;
+   }
+  #top1 .cell_top a:hover, #top1 .cell_top a:hover::before{
+    color:#086DF7;
+   }
+   #top1 .email_top a:hover, #top1 .email_top a:hover::before{
+     color:#086DF7;
+    }
+    #nav .navbar-header{
+      padding-top:12px;
+    }
+
 	#nav .navbar-right
 {
 	display:none;

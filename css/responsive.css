@@ -92,6 +92,9 @@
 	#about .abt_txt p{
 	text-align:center;
 }
+  #about .abt_subtxt p{
+      text-align:center;
+      }
 	.outer_box{
 		margin-left:25%;
 		width:48.4%;
@@ -219,6 +222,9 @@ display:none;
 #about .abt_txt p{
 	text-align:center;
 }
+#about .abt_subtxt p{
+    text-align:center;
+    }
 #services h2 {
     font-size: 24px;
     font-weight: 600;

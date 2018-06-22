@@ -121,7 +121,7 @@ border-right:1px solid #000;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner1.jpg) no-repeat;
 	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner1.jpg) no-repeat;
 	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner1.jpg) no-repeat;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .carousel .item.item2 {
@@ -129,7 +129,7 @@ border-right:1px solid #000;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner2.jpg) no-repeat;
 	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner2.jpg) no-repeat;
 	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner2.jpg) no-repeat;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .carousel .item.item3 {
@@ -137,7 +137,7 @@ border-right:1px solid #000;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner3.jpg) no-repeat;
 	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner3.jpg) no-repeat;
 	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner3.jpg) no-repeat;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .carousel .item.item4 {
@@ -145,7 +145,7 @@ border-right:1px solid #000;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner4.jpg) no-repeat;
 	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner4.jpg) no-repeat;
 	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/banner4.jpg) no-repeat;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .carousel .item.item5 {
@@ -153,7 +153,7 @@ border-right:1px solid #000;
 	background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
 	background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
 	background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner5.jpg) no-repeat;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .carousel-caption h2,

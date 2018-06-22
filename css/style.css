@@ -255,91 +255,118 @@ border-right:1px solid #000;
 #about {
 	width:100%;
 	padding-top:30px;
-	padding-bottom:30px;
-	background-color: teal;
+	padding-bottom:60px;
+	background-color: #fff;
 }
 #about h2{
 		font-size:36px;
 	font-weight:600;
-	color:#000;
+	color:#1d1d1d;
 	text-align:center;
 }
-#about p{
+#about .subtitle{
 	font-size:21px;
 	font-weight:500;
 	color:#1d1d1d;
 	text-align:center;
 	margin-bottom:10px;
 }
-#about .wrap_container{
-	    width: 100%;
-    height: 252px;
-    border: 1px solid #ccc;
-}
-#about .wrap_container .wrapper{
-	transition:1.5s;
-    transform-style: preserve-3d;
-    position: relative;
-   
-}
-#about .wrap_container .wrapper .front{
-	    z-index: 2;
-    width: 100%;
-    text-align: center;
-    transition: all 1.5s;
-    transform: rotateY(0deg);
-}
-#about .wrap_container .wrapper .front p{
-	margin: 0 0 10px;
-}
-#about .wrap_container .wrapper .front p img{
-      padding-top: 10px;
-}
-#about .wrap_container .wrapper .front span{
-	    font-size: 1em;
+
+    .outer_box {
+      display: block;
+      position: relative;
+      width: 100%;
+      min-height: 235px;  
+      perspective: 1000;
+      transform-style: preserve-3d;
+      overflow: hidden;
+      border-radius: 3px;
+      border:1px solid #1d1d1d;
+      margin-top:20px;
+      margin-left:60%;
+      cursor:pointer;
+    }
+
+    .front, .back {
+      position: absolute;
+      top:0;
+      left: 0;
+      display: block;
+      color: #fff;
+      height: 100%;
+      backface-visibility: hidden;
+      transition: all 0.4s linear;
+    }
+    
+    .back { padding: 10px; background-color: #fff; transform: rotateY(-180deg); }
+  
+    .front img {width: 100%;}
+    .front span{
+      font-size: 1em;
     color: #fff;
     padding: 5px 10px;
     bottom: 0;
     left: 0;
     position: absolute;
+    font-family: 'Roboto Condensed', sans-serif !important;
     font-weight: 700;
     width: 100%;
     text-align: center;
     background: #373435;
-}
-#about .wrap_container .wrapper .front, #about .wrap_container .warpper .back{
-	backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#about .wrap_container .warpper .back{
-	  transform: rotateY(-180deg);
-    background: #f8f8f8;
-    padding: 10px;
-}
-#about .wrap_container .wrapper .back p{
-	    text-align: center;
-    font-size: 14px;
-}
-#about .wrap_container:hover > .wrapper .front{
-	transform:rotateY(-180deg);
-}
-#about .wrap_container:hover > .wrapper  .back{
-	transform:rotateY(0deg);
-}
+    }
+
+    .back h4 { font-size: 18px; margin-top: 0; margin-bottom: 10px; color: #1d1d1d; }
+    .back p {  margin-bottom: 0; font-size: 15px;color: #1d1d1d}
+
+    .outer_box:hover .front {
+      transform: rotateY(180deg);
+    }
+    .outer_box:hover .back {
+      transform: rotateY(0deg);
+    }
+    #about .abt_txt{
+      width: 100%;
+      margin-top:30px;
+    }
+    #about .abt_txt p{
+      font-size:17px;
+      font-weight:200;
+      color:#1d1d1d;
+      text-align:left;
+    }
+     #about .abt_subtxt{
+      margin-top:20px;
+      text-align:center;
+      margin-left:5%;
+     }
+     #about .abt_subtxt i{
+      text-align:center;
+      font-size: 38px;
+      /*color:#086DF7;*/
+     color:#086DF7; 
+     }
+     #about .abt_subtxt h3{
+      font-size:21px;
+      font-weight:500;
+      color:#086DF7;
+     }
+    #about .abt_subtxt p{
+      font-size:17px;
+      font-weight:200;
+      color:#1d1d1d;
+      }
 /*about section end here*/
 /*services section start here*/
 #services{
 	  	width:100%;
-   	background-color:#fff;
+   	background-color:#24273a;
    	padding-top:25px;
    	padding-bottom:35px;
 }
 #services h2{
 	font-size:36px;
 	font-weight:600;
-	color:#000;
+	color:#fff;
 	text-align:center;
 }
 div.bhoechie-tab-container{

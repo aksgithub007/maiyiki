@@ -741,7 +741,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
    }
    footer .call .cell i, footer .call .email i, footer .call .social i{
    	color:#fff;
-   	font-size:32px;
+   	font-size:30px;
    	margin-top:34%;
    	transition:all 0.5s;
    }

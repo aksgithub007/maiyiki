@@ -27,7 +27,7 @@ padding: 2px 12px;
 font-weight:500;
 font-size:16px;
 text-decoration:none;
-color:#086DF7;
+color:#29b6f6;
 margin-right:0px;
 border-right:1px solid #000;
 font-family: 'Raleway', sans-serif;
@@ -74,7 +74,7 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 #nav .navbar-nav li a:hover{
-	color:#086DF7;
+	color:#29b6f6;
 }
 
 
@@ -106,10 +106,11 @@ font-family: 'Raleway', sans-serif;
 }
 .panel ul li{
 	 margin-top:10%;
+   text-align:center;
 }
 .panel ul li a {
     color: #fff;
-    margin-left:20px;
+   /* margin-left:20px;*/
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -119,7 +120,7 @@ font-family: 'Raleway', sans-serif;
  .panel ul li a:hover {
     color: #fff;
     padding-left:10px;
-    color:#086DF7;
+    color:#29b6f6;
     text-decoration: none;
  }
 
@@ -174,13 +175,13 @@ font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	letter-spacing: 1px;
 	margin-top:80px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .carousel-caption h2 span,
 .carousel-caption h3 span {
 	font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .carousel-caption p {
@@ -277,14 +278,14 @@ font-family: 'Raleway', sans-serif;
 #about h2{
 		font-size:36px;
 	font-weight:600;
-	color:#1d1d1d;
+	color:#29b6f6;
 	text-align:center;
-  font-family: 'Raleway', sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 #about .subtitle{
 	font-size:21px;
 	font-weight:500;
-	color:#1d1d1d;
+	color:#666;
 	text-align:center;
 	margin-bottom:10px;
   font-family: 'Raleway', sans-serif;
@@ -301,7 +302,7 @@ font-family: 'Raleway', sans-serif;
       border-radius: 3px;
       border:1px solid #1d1d1d;
       margin-top:20px;
-      margin-left:60%;
+     /* margin-left:60%;*/
       cursor:pointer;
     }
 
@@ -326,7 +327,7 @@ font-family: 'Raleway', sans-serif;
     bottom: 0;
     left: 0;
     position: absolute;
-    font-family: 'Roboto Condensed', sans-serif !important;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     width: 100%;
     text-align: center;
@@ -334,7 +335,7 @@ font-family: 'Raleway', sans-serif;
     }
 
     .back h4 { font-size: 18px; margin-top: 0; margin-bottom: 10px; color: #1d1d1d; font-family: 'Raleway', sans-serif; }
-    .back p {  margin-bottom: 0; font-size: 15px;color: #1d1d1d;font-family: 'Raleway', sans-serif;}
+    .back p {  margin-bottom: 0; font-size: 14.5px;color: #1d1d1d;font-family: 'Raleway', sans-serif;}
 
     .outer_box:hover .front {
       transform: rotateY(180deg);
@@ -356,32 +357,56 @@ font-family: 'Raleway', sans-serif;
      #about .abt_subtxt{
       margin-top:20px;
       text-align:center;
-
+      /*border:3px solid #f9f9f9;*/
+      padding-top:10px;
+      padding-bottom:10px;
       
      }
+    #about .abt_subtxt .abt_icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:#000;
+    text-align:center;
+    margin:0px auto;
+
+   }
      #about .abt_subtxt i{
       text-align:center;
-      font-size: 38px;
+      font-size: 28px;
       /*color:#086DF7;*/
-     color:#086DF7; 
+     color:#fff; 
+     margin-top:20px;
      }
      #about .abt_subtxt h3{
       font-size:21px;
       font-weight:500;
-      color:#086DF7;
+      color:#29b6f6;
       font-family: 'Raleway', sans-serif;
+     }
+     #about .abt_subtxt hr{
+      width:60%;
+      margin:20px auto;
      }
     #about .abt_subtxt p{
       font-size:17px;
       font-weight:400;
       color:#000;
       font-family: 'Raleway', sans-serif;
+      margin-top:20px;
       }
 /*about section end here*/
 /*services section start here*/
 #services{
 	  	width:100%;
-   	background-color:#24273a;
+   	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/services_bg.png');
+    -webkit-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/services_bg.png');
+    -ms-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/services_bg.png');
+    -moz-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/services_bg.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
    	padding-top:25px;
    	padding-bottom:35px;
 }
@@ -390,7 +415,8 @@ font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	color:#fff;
 	text-align:center;
-  font-family: 'Raleway', sans-serif;
+  text-transform:uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 div.bhoechie-tab-container{
   z-index: 10;
@@ -437,8 +463,9 @@ div.bhoechie-tab-menu div.list-group>a:last-child{
 div.bhoechie-tab-menu div.list-group>a.active,
 div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
 div.bhoechie-tab-menu div.list-group>a.active .fa{
-  background-color: #5A55A3;
-  background-image: #5A55A3;
+  background-color: #29b6f6;
+  background-image: #29b6f6;
+  border-color:#29b6f6;
   color: #ffffff;
 }
 div.bhoechie-tab-menu div.list-group>a.active:after{
@@ -450,7 +477,7 @@ div.bhoechie-tab-menu div.list-group>a.active:after{
   border-left: 0;
   border-bottom: 13px solid transparent;
   border-top: 13px solid transparent;
-  border-left: 10px solid #5A55A3;
+  border-left: 10px solid #29b6f6;
 }
 
 div.bhoechie-tab-content{
@@ -468,7 +495,7 @@ div.bhoechie-tab-content p{
   font-family: 'Raleway', sans-serif;
 }
 div.bhoechie-tab-content p b{
-	color:#086DF7;
+	color:#29b6f6;
 	font-size:17px;
 	font-weight:600; 
 }
@@ -485,7 +512,7 @@ div.bhoechie-tab-content ul li::before{
 	content: "\f152";
 	font-family: FontAwesome;
 	font-size:17px;
-	color:#086DF7;
+	color:#29b6f6;
 	margin-right:15px;
 }
 div.bhoechie-tab div.bhoechie-tab-content:not(.active){
@@ -508,7 +535,8 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     font-weight:600;
     color:#fff;
     text-align:center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
 }
 .testimonial{
     margin: 60px 0;
@@ -601,14 +629,14 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 #intrest h2{
   font-size:36px;
   font-weight:600;
-  color:#1d1d1d;
+  color:#29b6f6;
   text-align:center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #intrest p{
   font-size:18px;
   font-weight:500;
-  color:#1d1d1d;
+  color:#666;
   text-align:center;
   font-family: 'Raleway', sans-serif;
 }
@@ -644,7 +672,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
   margin-left:41%;
   margin-top:2%;
   padding:10px 30px;
-  background-color: #086DF7;
+  background-color: #29b6f6;
   color: #fff;
    -ms-transition: all 0.8s;
    -moz-transition: all 0.8s;
@@ -654,7 +682,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 
 }
 #intrest .btn:hover{
-  border:2px solid #086DF7;
+  border:2px solid #29b6f6;
   color:#000;
   background-color:#fff;
   font-weight:400;
@@ -677,7 +705,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
    	font-weight:600;
    	color:#fff;
    	text-align:center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
    }
    footer p{
    	font-size:18px;
@@ -693,7 +721,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     
     footer p a:hover
     {
-    	color:#086DF7;
+    	color:#29b6f6;
     	text-decoration:none;
     }
    footer .call{
@@ -708,13 +736,13 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
    	margin:0px auto;
    }
    footer .call .cell:hover, footer .call .email:hover, footer .call .social:hover{
-   	background-color:#086DF7;
+   	background-color:#29b6f6;
    	cursor:pointer;
    }
    footer .call .cell i, footer .call .email i, footer .call .social i{
    	color:#fff;
-   	font-size:45px;
-   	margin-top:28%;
+   	font-size:32px;
+   	margin-top:34%;
    	transition:all 0.5s;
    }
    footer .call .cell:hover > i, footer .call .email:hover > i, footer .call .social:hover > i{
@@ -769,7 +797,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .go-top.show { bottom: 20px; }
 
 .go-top:hover {
-  background-color: #086DF7;
+  background-color: #29b6f6;
   color: #FFFFFF;
 }
  /*to top section end*/

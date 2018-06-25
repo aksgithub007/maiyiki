@@ -52,7 +52,7 @@
       'shrink': ('.shrink'),
       'hiddenThin': ('.hiddenThin'),
       'side': 'right',
-      'menuWidth': '10.625em',
+      'menuWidth': '13.625em',
       'semiOpenMenuWidth': '4em',
       'speed': '600',
       'state': 'closed',

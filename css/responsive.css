@@ -42,10 +42,10 @@
     margin-right:14px;
   }
  #top1 .cell_top a:hover, #top1 .cell_top a:hover::before{
-   color:#086DF7;
+   color:#29b6f6;
   }
   #top1 .email_top a:hover, #top1 .email_top a:hover::before{
-    color:#086DF7;
+    color:#29b6f6;
    }
 
 		#nav .navbar-right
@@ -115,7 +115,7 @@
   margin-left:21%;
   margin-top:2%;
   padding:10px 30px;
-  background-color: #086DF7;
+  background-color: #29b6f6;
   color: #fff;
    -ms-transition: all 0.8s;
    -moz-transition: all 0.8s;
@@ -170,10 +170,10 @@
      margin-right:10px;
    }
   #top1 .cell_top a:hover, #top1 .cell_top a:hover::before{
-    color:#086DF7;
+    color:#29b6f6;
    }
    #top1 .email_top a:hover, #top1 .email_top a:hover::before{
-     color:#086DF7;
+     color:#29b6f6;
     }
     #nav .navbar-header{
       padding-top:12px;
@@ -271,7 +271,7 @@ div.bhoechie-tab-content{
   margin-left:13%;
   margin-top:2%;
   padding:10px 30px;
-  background-color: #086DF7;
+  background-color: #29b6f6;
   color: #fff;
    -ms-transition: all 0.8s;
    -moz-transition: all 0.8s;
